@@ -225,6 +225,7 @@ section {
 
 .vertical > img {
   border-radius: 0;
+  aspect-ratio: 1.2;
 }
 
 .vertical:hover,
