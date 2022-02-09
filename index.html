@@ -1,2 +1,97 @@
-<h1>Hello World</h1>
-<p>There is nothin here, I use this place to host images. Might make something later.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stanislav Rusak</title>
+  </head>
+  <body>
+    <nav class="bg-secondary">
+      <h1 class="uppercase">Stanislav Rusak</h1>
+      <ul>
+        <li><a href="/">Projects</a></li>
+        <li><a href="https://github.com/stanrusak/">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/stanislav-rusak">LinkedIn</a></li>
+        <li><a href="/resume/">Resume</a></li>
+      </ul>
+    </nav>
+    <div id="container">
+      <article class="card main perspective">
+        
+        <div class="main-description">
+        <h3 class="text-secondary">blendfig</h3>
+        <p>A plotting package to be used with the 3D modeling software Blender.
+            With blendfig one can use Python to produce 3D plots which can then
+            be customized using Blender's powerful shading and modeling tools to produce
+            beautiful data visualizations and animations.
+        </p>
+        <div class="buttons">
+        <a href="https://github.com/stanrusak/blendfig/"><button>GitHub</button></a>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="./files/projects/blendfig/potential.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/example_shaded.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/covid2.png"></img>
+  </a>          <a href="#"><img src="./files/projects/blendfig/lattice2.png"></img>
+</a>            <a href="#"><img src="./files/projects/blendfig/languages.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/attractor.png"></img></a>
+        </div>
+      </article>
+    </div>
+      <section>
+      <div class="card-container">
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/badminton/screenshot.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">Badminton Web App</h3>
+        <p>A web app showing badminton court availability in Madrid.
+          The data is scraped using Python and Selenium and then is served using Flask
+          as a web app. It also provides an API endpoint for the data.
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="http://badminton-madrid.es"><button>Link</button></a>
+        <a href="http://badminton-madrid.es/api"><button>API</button></a>
+        <!-- <a href="https://github.com/stanrusak/badminton-madrid"><button>GitHub</button></a> -->
+        </div>
+      </article>
+
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/badminton/screenshot.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">pylateasy</h3>
+        <p>A python wrapper for a C++ lattice simulation code LATTICEEASY. Can be used
+          for convenient running of simulations and subsequent analysis of the results.
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="https://github.com/stanrusak/pylateasy/blob/main/pylateasy.ipynb"><button>Notebook</button></a>
+        <a href="https://github.com/stanrusak/pylateasy"><button>GitHub</button></a>
+        </div>
+      </article>
+
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/badminton/screenshot.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">hartree</h3>
+        <p>A python code for solving non-perturbative particle production in the Hartree approximation.
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="http://badminton-madrid.es"><button>Notebook</button></a>
+        <a href="http://badminton-madrid.es/api"><button>GitHub</button></a>
+        </div>
+      </article>
+
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
