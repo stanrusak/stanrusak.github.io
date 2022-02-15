@@ -58,6 +58,10 @@ section {
   margin: auto 1em 4em 2em;
 }
 
+.italic {
+  font-style: italic;
+}
+
 i {
   margin-right: 0.5em;
 }
@@ -80,4 +84,41 @@ h2 {
 
 #col-1 {
   border-right: 1px solid lightgray;
+}
+
+.position {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.institution {
+  font-weight: 500;
+  margin: 0;
+}
+
+.period-location-container {
+  display: inline-flex;
+}
+
+.period {
+  font-weight: 300;
+  margin: 0;
+  margin-left: 1em;
+}
+
+.location {
+  margin: 0;
+  margin-left: 7em;
+}
+
+.card {
+  transition: all 250ms;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover #work {
+  background-color: pink;
 }
