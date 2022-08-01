@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stanislav Rusak</title>
+  </head>
+  <body>
+    <nav class="bg-secondary">
+      <h1 class="uppercase">Stanislav Rusak</h1>
+      <ul>
+        <li class="active"><a href="/"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>Projects</a></li>
+        <li><a href="https://github.com/stanrusak/"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/stanislav-rusak"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="/resume/"><i class="fa-regular fa-file-lines"></i>Resume</a></li>
+      </ul>
+    </nav>
+    <div id="container">
+      <article class="card main perspective">
+        
+        <div class="main-description">
+        <h3 class="text-secondary">blendfig</h3>
+        <p>A plotting package to be used with the 3D modeling software Blender.
+            With blendfig one can use Python to produce 3D plots which can then
+            be customized using Blender's powerful shading and modeling tools to produce
+            beautiful data visualizations and animations.
+        </p>
+        <div class="buttons">
+        <a href="https://github.com/stanrusak/blendfig/"><button><i class="fab fa-github" aria-hidden="true"></i>GitHub</button></a>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="./files/projects/blendfig/potential_small.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/example_shaded_small.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/covid2_small.png"></img>
+  </a>          <a href="#"><img src="./files/projects/blendfig/lattice2_small.png"></img>
+</a>            <a href="#"><img src="./files/projects/blendfig/languages_small.png"></img></a>
+            <a href="#"><img src="./files/projects/blendfig/attractor_small.png"></img></a>
+        </div>
+      </article>
+    </div>
+      <section>
+      <div class="card-container">
+        <article class="card vertical">
+          <img class="image-top" src="./files/projects/climbingstats/screenshot_small.png"></img>
+          <div class="description">
+          <h3 class="text-secondary">Bouldering Statistics</h3>
+          <p>Climbing statistics from IFSC World Cups and World Championships based on data scraped from the <a href="https://www.ifsc-climbing.org/">IFSC website</a>.
+          </p>
+          </div>
+          <div class="buttons">
+          <a href="https://stanrusak.github.io/climbingstats"><button><i class="fa-solid fa-earth-americas"></i>Live</button></a>
+          <a href="https://github.com/stanrusak/climbingstats"><button><i class="fab fa-github" aria-hidden="true"></i>GitHub</button></a>
+          <a href="https://github.com/stanrusak/climbingstats/blob/main/bouldering.ipynb"><button><i class="fa-solid fa-file-lines"></i>Notebook</button></a>
+          <!-- <a href="https://github.com/stanrusak/badminton-madrid"><button>GitHub</button></a> -->
+          </div>
+        </article>
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/badminton/screenshot_small.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">Badminton Web App</h3>
+        <p>A web app showing badminton court availability in Madrid.
+          The data is scraped using Python and Selenium and then is served using Flask
+          as a web app. It also provides an API endpoint for the data.
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="http://badminton-madrid.es"><button><i class="fa-solid fa-earth-americas"></i>Live</button></a>
+        <a href="http://badminton-madrid.es/api"><button><i class="fa-solid fa-tower-broadcast"></i>API</button></a>
+        <!-- <a href="https://github.com/stanrusak/badminton-madrid"><button>GitHub</button></a> -->
+        </div>
+      </article>
+
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/pylateasy/pylateasy_small.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">pylateasy</h3>
+        <p>A python wrapper for a C++ lattice simulation code LATTICEEASY. Can be used
+          for convenient running of simulations and subsequent analysis of the results.
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="https://github.com/stanrusak/pylateasy/blob/main/pylateasy.ipynb"><button><i class="fa-solid fa-file-lines"></i>Notebook</button></a>
+        <a href="https://github.com/stanrusak/pylateasy"><button><i class="fab fa-github" aria-hidden="true"></i>GitHub</button></a>
+        </div>
+      </article>
+
+      <article class="card vertical">
+        <img class="image-top" src="./files/projects/hartree/hartree_small.png"></img>
+        <div class="description">
+        <h3 class="text-secondary">hartree-trapping</h3>
+        <p>A python code for solving the trapping of the inflaton via non-perturbative particle production using the Hartree approximation. 
+        </p>
+        </div>
+        <div class="buttons">
+        <a href="https://github.com/stanrusak/hartree-trapping/blob/main/inflaton-trapping.ipynb"><button><i class="fa-solid fa-file-lines"></i>Notebook</button></a>
+        <a href="https://github.com/stanrusak/hartree-trapping"><button><i class="fab fa-github" aria-hidden="true"></i>GitHub</button></a>
+        </div>
+      </article>
+
+      </div>
+    </div>
+    </section>
+  </body>
+</html>
