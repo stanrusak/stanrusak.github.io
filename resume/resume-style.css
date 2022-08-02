@@ -122,3 +122,10 @@ h2 {
 .card:hover #work {
   background-color: pink;
 }
+
+#languages div {
+  margin: 0 2rem 1rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
